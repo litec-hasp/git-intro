@@ -98,8 +98,8 @@ The following links are some of my favourites:
 It is recommended **NOT** to read the following two books:
 
 <p float="left">
-  <img src="./images/git-basics_Excuses.png" height="450" />
-  <img src="./images/git-basics_UselessMessages.jpg" height="450" />
+  <img src="./img/git-basics_Excuses.png" height="450" />
+  <img src="./img/git-basics_UselessMessages.jpg" height="450" />
 </p>
 
 Instead use the online resources mentioned before!
