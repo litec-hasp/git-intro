@@ -50,6 +50,7 @@ Ok, then install git from [git-scm](https://git-scm.com/download/win).
 - `choco list -lo` ... list local installed packages
 - `choco list -li` ... list local installed managed and unmanaged packages
 - `choco outdated` ... list local installed upgradeable packages
+- `choco upgrade <packagename|all> -y` ... update a given package (or all)
 - `choco install <packagename> -y` ... install package and answer with yes during installation
 - `choco uninstall <packagename>`  ... I think you know what that does, or?
 
