@@ -36,7 +36,7 @@ Install a GUI:
    choco install github-desktop -y
   ```
 
-### You don't want to use chocolatey? 
+### You don't want to use chocolatey?
 
 ### Are you really sure?
 
@@ -68,8 +68,8 @@ For in-depth information see [Getting-Started](https://git-scm.com/book/en/v2/Ge
 1. type in the following two commands:
 
 ```bash
-$ git config --global user.name "<YourName>"
-$ git config --global user.email <YourEMail>
+  git config --global user.name "<YourName>"
+  git config --global user.email <YourEMail>
 ```
 
 ---

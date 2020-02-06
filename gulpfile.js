@@ -31,7 +31,7 @@ gulp.task('copy-presentation', async () => {
     const html = gulp.src('*.html').pipe(ssi()).pipe(gulp.dest('dist'));
     const css = gulp.src('*.css').pipe(gulp.dest('dist/css'));
     const headers = gulp.src(['headers.js']).pipe(gulp.dest('dist/js'));
-    const images = gulp.src('images/**/*').pipe(gulp.dest('dist/images'));
+    const images = gulp.src('img/**/*').pipe(gulp.dest('dist/img'));
     const md = gulp.src(['*.md', '!README.md']).pipe(ssi()).pipe(lec()).pipe(gulp.dest('dist'));
     return merge(html, css, headers, images, md);
 });
@@ -41,5 +41,5 @@ gulp.task('default', gulp.parallel('copy-presentation', 'copy-reveal', 'copy-jqu
 
 gulp.task('watch', gulp.series('default'), () => {
     gulp.watch(
-        ['*.html', '*.css', 'headers.js', 'images/**/*', '*.md'], gulp.series('default'));
+        ['*.html', '*.css', 'headers.js', 'img/**/*', '*.md'], gulp.series('default'));
 });

@@ -34,13 +34,13 @@ Usage of git within Visual Studio.
     - or use shortcuts: `Ctrl+^` or `Ctrl+M`
 1. Open up the Team Explorer and you get a view similar to this:
 
-![teamexplorer](./images/git-on-VS_teamexplorer.jpg)
+![teamexplorer](./img/git-on-VS_teamexplorer.jpg)
 
 ---
 
 ### 3a. Team Explorer View
 
-![teamexplorer](./images/git-on-VS_teamexplorer.jpg)
+![teamexplorer](./img/git-on-VS_teamexplorer.jpg)
 
 The most important fields (one needs alll the time):
 
@@ -52,7 +52,7 @@ The most important fields (one needs alll the time):
 
 ### 3b. `Changes`-Area
 
-![changes](./images/git-on-VS_changes.jpg)
+![changes](./img/git-on-VS_changes.jpg)
 
 1. Choose which files to add (lower area)
 1. Add your commit message to the according field and then 
@@ -63,7 +63,7 @@ The most important fields (one needs alll the time):
 
 ### 3c. The `Sync`-Area
 
-![sync](./images/git-on-VS_sync.jpg)
+![sync](./img/git-on-VS_sync.jpg)
 
 1. Download changes from remote repository (github) to your local workspace: `Pull`
 1. Just get information about changes on the remote repository (github): `Fetch`
