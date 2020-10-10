@@ -16,8 +16,7 @@ This is for Windows only! For Linux just use on-board-tools ;)
 1. Install chocolatey (see also <https://chocolatey.org/install>) by performing the following commands:
 
    ```bash
-    Set-ExecutionPolicy Bypass -Scope Process -Force;
-    iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
    ```
 
 1. Restart elevated Powershell console and type:
@@ -28,14 +27,6 @@ This is for Windows only! For Linux just use on-board-tools ;)
 
 ---
 <!-- .slide: class="left" -->
-### You don't want to use a commandline for git?
-
-Install a GUI:
-
-  ```bash
-   choco install github-desktop -y
-  ```
-
 ### You don't want to use chocolatey?
 
 ### Are you really sure?
@@ -81,4 +72,5 @@ Follow this link: <https://github.com/join> and ... **JOIN!**
 #### Username-Recommendations
 
 - Litec staff: `litec-<UPIS Shortcut>`
+- Litec students: `First letter of surname + first letter of firstname + last 8 digits of studentsID`
 - Rest of the world: completely up to you!
