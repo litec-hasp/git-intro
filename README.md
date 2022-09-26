@@ -12,3 +12,8 @@ Either visit [github pages](https://litec-hasp.github.io/git-intro/) or see the 
 ## Additonal Informations
 
 This presentation is based on reveal.js - see [reveal-js.info.md](./reveal-js-info.md) for details.
+
+- https://github.com/rstropek/git-fundamentals
+- https://www.jrebel.com/blog/git-cheat-sheet
+- https://www.w3schools.com/git/git_intro.asp?remote=github
+- 

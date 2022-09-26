@@ -2,8 +2,8 @@
 
 Deals with the following topics:
 
-- Installation of git on 
-- Installing and setup of software: [git](https://chocolatey.org/packages/git)
+- Installation of git on Windows systems
+- Installing and setup of software: [git](https://git-scm.com/)
 - Creating a github account: [github](https://github.com/join)
 
 ---
@@ -32,20 +32,6 @@ This is for Windows only! For Linux just use on-board-tools ;)
 ### Are you really sure?
 
 Ok, then install git from [git-scm](https://git-scm.com/download/win).
-
----
-
-### Mini Cheat-Sheet for chocolatey
-
-- `choco list <packagename>` ... search for a given package
-- `choco list -lo` ... list local installed packages
-- `choco list -li` ... list local installed managed and unmanaged packages
-- `choco outdated` ... list local installed upgradeable packages
-- `choco upgrade <packagename|all> -y` ... update a given package (or all)
-- `choco install <packagename> -y` ... install package and answer with yes during installation
-- `choco uninstall <packagename>`  ... I think you know what that does, or?
-
-For all available packages see <https://chocolatey.org/packages>.
 
 ---
 
