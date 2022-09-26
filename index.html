@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="reveal.js/dist/reset.css" />
+    <link rel="stylesheet" href="reveal.js/dist/reveal.css" />
+
+    <!-- For a list of themes see https://revealjs.com/themes/ -->
+    <link rel="stylesheet" href="reveal.js/dist/theme/league.css" id="theme" />
+
+    <!-- theme used for syntax highlighted code -->
+    <link
+      rel="stylesheet"
+      href="reveal.js/plugin/highlight/monokai.css"
+      id="highlight-theme"
+    />
+  </head>
+  <body>
+    <div class="reveal">
+        <div class="slides">
+        
+        <section
+            data-markdown="00-example.md"
+            data-separator="^\r?\n-----\r?\n$"
+            data-separator-vertical="^\r?\n---\r?\n$"
+            data-separator-notes="^Note:"
+            data-charset="iso-8859-15">
+        </section>
+
+        <section 
+          data-markdown
+          data-separator="-----"
+          data-separator-vertical="---"
+        >
+          <textarea data-template>
+            # Inline Markdown
+
+            ### `<insert date here>`
+
+            -----
+                        
+            Vertical slides are separated by `- - -`
+
+            Look below for a code example
+            
+            ---
+
+            ### Code
+
+            with highlighting
+            
+            ```java [1-2|3|4]
+            public class foo {
+              private int baa;
+              public foo() {
+                baa = 0;
+              }
+            }
+            ```
+  
+            -----
+            
+            ## Lists
+
+            ### Unordered
+            
+            * one
+            * two
+            * three
+
+            ---
+
+            ### Ordered
+
+            1. one
+            1. two
+            1. three
+ 
+            -----
+
+            ## Link Example
+
+            made with [reveal.js](https://github.com/hakimel/reveal.js)
+
+          </textarea>
+        </section>
+      </div>
+    </div>
+
+    <script src="reveal.js/dist/reveal.js"></script>
+    <script src="reveal.js/plugin/notes/notes.js"></script>
+    <script src="reveal.js/plugin/markdown/markdown.js"></script>
+    <script src="reveal.js/plugin/math/math.js"></script>
+    <script src="reveal.js/plugin/highlight/highlight.js"></script>
+    <script src="reveal.js/plugin/zoom/zoom.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+        slideNumber: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom, RevealMath],
+      });
+    </script>
+  </body>
+</html>
