@@ -6,8 +6,7 @@
 
 ## Mermaid Tryout
 
-[![](https://mermaid.ink/img/pako:eNptkc9qwzAMh1_F6LRC-wI-7NTjdtmOcw_GVlIz_wmyQlZK331KTEgKNRjM98n6GesOrngEDZUt4znYnmwyWcnygdBxKFl9fDUyea2mQr8h98bk5gvdmqysZdseRb2F7PHv0EQkrWJxNoogHEoN2yUSR5gK4ws5eXU6vUtTpZX1fo1ZYCSBrqQUeE1ZOM18GOt17b9Vd8juBR7GGJ-oxO5p3FHCiqx-Wu7l6UE7D0dISMkGL_96n6sM8BUTGtBy7IqUsQGTH1JpRy7ft-xAM414hHHw2yBAdzZWoejnf_lso1om9vgH7GGMwg)](https://mermaid.live/edit#pako:eNptkc9qwzAMh1_F6LRC-wI-7NTjdtmOcw_GVlIz_wmyQlZK331KTEgKNRjM98n6GesOrngEDZUt4znYnmwyWcnygdBxKFl9fDUyea2mQr8h98bk5gvdmqysZdseRb2F7PHv0EQkrWJxNoogHEoN2yUSR5gK4ws5eXU6vUtTpZX1fo1ZYCSBrqQUeE1ZOM18GOt17b9Vd8juBR7GGJ-oxO5p3FHCiqx-Wu7l6UE7D0dISMkGL_96n6sM8BUTGtBy7IqUsQGTH1JpRy7ft-xAM414hHHw2yBAdzZWoejnf_lso1om9vgH7GGMwg)
-
+[![](https://mermaid.ink/img/pako:eNptkU1rhDAQhv9KCIgt7P6BHHrqsb20x00PIRnd0HzIZMQu4n_vaBB3YT3J84zzyjuztNmBVLKQIXj3pkcTdWqa2SdPSswtXSFCq9ouIxRql6VpdBL8OI9gyeckPr4qmZwSU8Zfn3qtU_UZb1UW3sYhPbB68cnB32sVAZUI2ZrAAmHIxR8fITuEmAmeyMmJ8_mNlwoljHN7zAYDMrQ5Rk97ysZx5cNYrvv-Y7oDsk_wMIbwQDn2noY7yg0BiUvN_Xn4oTsvTzICRuMd9z6vU1puLWup-LUWraVOC0-akfL3LVmpCEc4yXFwx6Gk6kwoTMGtvXzWU24XXf4BaEuXmg)](https://mermaid.live/edit#pako:eNptkU1rhDAQhv9KCIgt7P6BHHrqsb20x00PIRnd0HzIZMQu4n_vaBB3YT3J84zzyjuztNmBVLKQIXj3pkcTdWqa2SdPSswtXSFCq9ouIxRql6VpdBL8OI9gyeckPr4qmZwSU8Zfn3qtU_UZb1UW3sYhPbB68cnB32sVAZUI2ZrAAmHIxR8fITuEmAmeyMmJ8_mNlwoljHN7zAYDMrQ5Rk97ysZx5cNYrvv-Y7oDsk_wMIbwQDn2noY7yg0BiUvN_Xn4oTsvTzICRuMd9z6vU1puLWup-LUWraVOC0-akfL3LVmpCEc4yXFwx6Gk6kwoTMGtvXzWU24XXf4BaEuXmg)
 Note:
 ```mermaid
 stateDiagram
@@ -36,7 +35,7 @@ stateDiagram
 Note:
 ```mermaid
 flowchart LR
-%%{init: {'theme':'neutral' ,'flowchart': { 'curve': 'natural' }}}%%
+%%{init: {'theme':'forest' ,'flowchart': { 'curve': 'natural' }}}%%
     wd[working\ndirectory]
     st["stage\n(index)"]
     lr[local\nrepository]
