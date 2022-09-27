@@ -6,7 +6,7 @@
 
 ## Mermaid Tryout
 
-[![](https://mermaid.ink/img/pako:eNp1kb1uwzAMhF9F4NQCyQsYSKaM7dKOVgZBom2h-jEoGk4Q591L23HTodUk3H28E6gb2OwQKlCqCXm0nSFWbx86KTmjq8dMXz61WifnCS1nup5Xs3CtobBpUcwXnxxeXjU8zEB1yNYEsQj7XPyvQaKaMGbGv8zRqcPhOBnnJmnYmhbN5hg9T5K9dSxyP5RuktAtXO33x6lBtt0TpQ0N4R9xdD-h87wGwoKs6rX0rOGJyHNmZAFmFXYQkaLxTtZ4mxkN3GFEDZVcmywka9DpLqQZOH9ek4WKacAdDL0zjCdvWjIRqsaEIiq6eSfv68_YnBrfwv0bt5qPpg)](https://mermaid.live/edit#pako:eNp1kb1uwzAMhF9F4NQCyQsYSKaM7dKOVgZBom2h-jEoGk4Q591L23HTodUk3H28E6gb2OwQKlCqCXm0nSFWbx86KTmjq8dMXz61WifnCS1nup5Xs3CtobBpUcwXnxxeXjU8zEB1yNYEsQj7XPyvQaKaMGbGv8zRqcPhOBnnJmnYmhbN5hg9T5K9dSxyP5RuktAtXO33x6lBtt0TpQ0N4R9xdD-h87wGwoKs6rX0rOGJyHNmZAFmFXYQkaLxTtZ4mxkN3GFEDZVcmywka9DpLqQZOH9ek4WKacAdDL0zjCdvWjIRqsaEIiq6eSfv68_YnBrfwv0bt5qPpg)
+[![](https://mermaid.ink/img/pako:eNptkc9qwzAMh1_F6LRC-wI-7NTjdtmOcw_GVlIz_wmyQlZK331KTEgKNRjM98n6GesOrngEDZUt4znYnmwyWcnygdBxKFl9fDUyea2mQr8h98bk5gvdmqysZdseRb2F7PHv0EQkrWJxNoogHEoN2yUSR5gK4ws5eXU6vUtTpZX1fo1ZYCSBrqQUeE1ZOM18GOt17b9Vd8juBR7GGJ-oxO5p3FHCiqx-Wu7l6UE7D0dISMkGL_96n6sM8BUTGtBy7IqUsQGTH1JpRy7ft-xAM414hHHw2yBAdzZWoejnf_lso1om9vgH7GGMwg)](https://mermaid.live/edit#pako:eNptkc9qwzAMh1_F6LRC-wI-7NTjdtmOcw_GVlIz_wmyQlZK331KTEgKNRjM98n6GesOrngEDZUt4znYnmwyWcnygdBxKFl9fDUyea2mQr8h98bk5gvdmqysZdseRb2F7PHv0EQkrWJxNoogHEoN2yUSR5gK4ws5eXU6vUtTpZX1fo1ZYCSBrqQUeE1ZOM18GOt17b9Vd8juBR7GGJ-oxO5p3FHCiqx-Wu7l6UE7D0dISMkGL_96n6sM8BUTGtBy7IqUsQGTH1JpRy7ft-xAM414hHHw2yBAdzZWoejnf_lso1om9vgH7GGMwg)
 
 Note:
 ```mermaid
@@ -24,14 +24,16 @@ stateDiagram
     rr --> lr : pull
     rr --> wd : pull
     lr --> wd : reset [commit]
-    st --> wd : reset
-   
+    st --> wd : reset   
 ```
 
 ---
 
 ## Mermaid Tryout2
 
+[![](https://mermaid.ink/img/pako:eNp1kb1uwzAMhF9F4NQCyQsYSKaM7dKOVgZBom2h-jEoGk4Q591L23HTodUk3H28E6gb2OwQKlCqCXm0nSFWbx86KTmjq8dMXz61WifnCS1nup5Xs3CtobBpUcwXnxxeXjU8zEB1yNYEsQj7XPyvQaKaMGbGv8zRqcPhOBnnJmnYmhbN5hg9T5K9dSxyP5RuktAtXO33x6lBtt0TpQ0N4R9xdD-h87wGwoKs6rX0rOGJyHNmZAFmFXYQkaLxTtZ4mxkN3GFEDZVcmywka9DpLqQZOH9ek4WKacAdDL0zjCdvWjIRqsaEIiq6eSfv68_YnBrfwv0bt5qPpg)](https://mermaid.live/edit#pako:eNp1kb1uwzAMhF9F4NQCyQsYSKaM7dKOVgZBom2h-jEoGk4Q591L23HTodUk3H28E6gb2OwQKlCqCXm0nSFWbx86KTmjq8dMXz61WifnCS1nup5Xs3CtobBpUcwXnxxeXjU8zEB1yNYEsQj7XPyvQaKaMGbGv8zRqcPhOBnnJmnYmhbN5hg9T5K9dSxyP5RuktAtXO33x6lBtt0TpQ0N4R9xdD-h87wGwoKs6rX0rOGJyHNmZAFmFXYQkaLxTtZ4mxkN3GFEDZVcmywka9DpLqQZOH9ek4WKacAdDL0zjCdvWjIRqsaEIiq6eSfv68_YnBrfwv0bt5qPpg)
+
+Note:
 ```mermaid
 flowchart LR
 %%{init: {'theme':'neutral' ,'flowchart': { 'curve': 'natural' }}}%%
