@@ -22,8 +22,8 @@ stateDiagram
     lr --> rr : push
     rr --> lr : fetch
     rr --> lr : pull
-    rr --> wd : pull
-    lr --> wd : reset [commit]
+    rr ----> wd : pull
+    lr ---> wd : reset [commit]
     st --> wd : reset
    
 ```
