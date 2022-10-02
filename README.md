@@ -14,7 +14,7 @@ Additional documents:
 
 - [99-git-on-VS.md](./99-git-on-VS.md) - usage of git within Visual Studio
 
-## Additonal Informations
+## Additonal Information
 
 This presentation is based on reveal.js - see [reveal-js.info.md](./reveal-js-info.md) for details.
 
