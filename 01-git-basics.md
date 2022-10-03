@@ -52,23 +52,62 @@ A good way? Hmm...<br> Even worse: consider a shared folder!
 
 ---
 
-- Works for small and huge projects
-- Supports local repositories and servers
-- Want to learn all the details? [Free, online book...](https://git-scm.com/book)
-- We will use [*GitHub*](https://github.com)
+## What is a Version Control System? <small>Part 3</small>
 
+### Some Lingo (More to Follow)
+
+- **Repository** (**Repo**) - file "storage place" (database / folder)
+- **Working Copy** - local directory of files
+- **Revision** - file version
+- **Head** - latest revision in repo
+
+### Difference Traditional and Distributed VCS
+
+- *Traditional* - one "centralized" server stores repositories
+- *Distributed* - independent / "peer-to-peer" repositories (decentralized)
+
+### Links - Worth a Visit
+
+- [A Visual Guide to Version Control – BetterExplained](https://betterexplained.com/articles/a-visual-guide-to-version-control/)
+- [Intro to Distributed Version Control (Illustrated) – BetterExplained](https://betterexplained.com/articles/intro-to-distributed-version-control-illustrated/)
+
+---
+
+## What does Git do? <small>Motivational Slide</small>
+
+- Use **Repositories** to manage projects
+- **Clone** or **initialize** a project to work on a local copy
+- Control and track changes with **Staging** and **Committing**
+- **Branch** and **Merge** to allow for work on different parts<br>
+  and versions of a project
+- **Pull** the latest version from the repository to a local copy
+- **Push** local changes to another repository
+
+### Workflow
+
+![github base commands](./img/git-state-diagram_(c)JREBEL.png)
+
+---
+
+
+### Hands-On Exercises and Further Reading
+
+1. Prerequisites - Github account and local git is configured
+2. You created a repo on github or you got an assignment-link from me
+3. Now head over to [Git Cheat Sheet: Commands and Best Practices](https://www.jrebel.com/blog/git-cheat-sheet)
+
+Note:
+image source: <https://www.jrebel.com/blog/git-cheat-sheet>
 ---
 
 ## How to Use Git?
 
-- [Download and install Git...](https://git-scm.com)
-- Git command line
+- Detailed git command line explanations
   - [Read chapter 2 *Git Basics* of Git book...](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
-- Visual Git tools; examples:
-  - [Git Extensions](https://gitextensions.github.io/)
-  - [GitHub Desktop](https://desktop.github.com/)
-  - [Sourcetree](https://www.atlassian.com/software/sourcetree)
+- Visual Git tools examples:
   - [Git support in VSCode](https://code.visualstudio.com/docs/editor/versioncontrol#_git-support)
+  - Intellij IDEA
+  - Visual Studio
 - Other tools
   - [gitignore.io](https://www.gitignore.io/)
 
@@ -132,7 +171,7 @@ The following links are some of my favorites:
 
 ---
 
-## Book recommendations
+## ~~Book recommendations~~
 
 It is recommended **NOT** to read the following two books:
 
@@ -142,40 +181,3 @@ It is recommended **NOT** to read the following two books:
 </p>
 
 Instead use the online resources mentioned before!
-
------
-
-# Markdown
-
-The default documentation on github is written with markdown.
-
-I have to confess - I love it!
-
-Fundamentals: [Markdown](https://daringfireball.net/projects/markdown/)
-
-Note: mainly taken from R. Stropek [Github for Edu - Markdown](https://rstropek.github.io/GitHubEduWorkshop/#/5)
-
----
-
-## What is Markdown?
-
-- Plain text format
-- Easy to write by humans
-- Easy to read even with a simple text editor (*readability*)
-- Optionally convert to other formats (e.g. HTML, PDF, see [Pandoc](http://pandoc.org/))
-- Inline HTML (including SVG) is possible in many cases
-- Heavily used by GitHub for e.g. issues, comments, *readme*-files, etc.
-
----
-
-## GitHub Flavored Markdown
-
-- Exension of Markdown
-- [Specification](https://github.github.com/gfm/)
-- [Basic writing and formatting syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
-- Special features:
-  - Relative links
-  - Task lists
-  - Mentioning people and teams (`@someone` syntax)
-  - [Referencing issues and pull requests](https://help.github.com/articles/autolinked-references-and-urls) (`#id` syntax)
-  - [Code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks) including syntax highlighting
