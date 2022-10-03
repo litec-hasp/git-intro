@@ -1,7 +1,7 @@
 ## Prerequisites
 
 > For Windows only!<br>
-> See slide(s) below for setup.
+> See slide(s) below for setup (litec way).
 
 - Usage of [winget](https://github.com/microsoft/winget-cli) package-manager
 - Installation of some base tools (editor, terminal,...)

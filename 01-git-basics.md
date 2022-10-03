@@ -1,22 +1,47 @@
 # Git Basics
 
-To prevent any kind of confusion:
-
-- GIT ... a **software tool**  - distributed version control system
-- GITHUB ... a host for storing projects (repositories) which are 'version controlled' by git
-
-Note: Next slides mostly taken from Rainer Stropek -see [GitHub for Edu - Git](https://rstropek.github.io/GitHubEduWorkshop/#/4)
+> *To prevent any kind of confusion:*
+>
+> - **GIT** is
+>   - a **software tool** (command line)
+>   - a **Distributed Version Control System**
+> - **GITHUB** is
+>   - a host for storing projects (repositories)
+>     - projects are 'version controlled' by git
+>   - a collaboration workspace for coders
 
 ---
 
 ## What is Git?
 
-- As already mentioned: Distributed version control system
+- A popular *(Distributed) Version Control System*
 - Free and open source
+- Created 2005 by Linus Torvalds
+- Used for
+  - Coding and writing collaboration
+  - tracking changes:
+     - **what** (code, text, files)
+     - **who**
+     - **when**
+
+
+---
+
+## What is a Version Control System? - Part 1
+
+> "Version control lets you track your files over time."
+
+Everyone of us is doing this ("`Save as..`"):
+
+![failed versioning](img/failed_versioning.png)
+
+---
+
 - Works for small and huge projects
 - Supports local repositories and servers
 - Want to learn all the details? [Free, online book...](https://git-scm.com/book)
 - We will use [*GitHub*](https://github.com)
+
 
 ---
 

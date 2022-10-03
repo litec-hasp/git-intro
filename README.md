@@ -10,7 +10,7 @@ Either visit the according [github pages](https://litec-hasp.github.io/git-intro
 - [01-git-basics.md](./01-git-basics.md) - the essentials introduction to git.
 - [02-github-education.md](./02-github-education.md) - github eduction, mainly for teachers
 
-Additional documents: 
+Additional documents:
 
 - [99-git-on-VS.md](./99-git-on-VS.md) - usage of git within Visual Studio
 
