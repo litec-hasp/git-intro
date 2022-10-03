@@ -89,85 +89,74 @@ A good way? Hmm...<br> Even worse: consider a shared folder!
 
 ---
 
+## What does Git Offer?
 
-### Hands-On Exercises and Further Reading
+- Git is a place to store content
+  - Mostly code
+  - Documents and presentations ([Markdown](https://en.wikipedia.org/wiki/Markdown))
+  - Avoid large, binary blobs (if you have, check out [Git LFS](https://git-lfs.github.com/))
+- Git gives you version control
+  - History of code changes
+  - Manage different versions of your code (*branches*)
+- Git support collaboration in a distributed team
+  - Store a copy of your code on remote servers
+  - Everybody has a copy of the entire repository
+  - Let multiple people contribute changes easily
+
+---
+
+## GUI or CLI?
+
+- Command Line Interface (CLI)
+  - Efficient if you know what you are doing
+  - Hard, if you are not used to CLIs
+  - Automate things, easy to share and repeat
+- Integrated Development Environments (IDE)
+  - Simplified Git clients in IDEs (Visual Studio Code, Intellij IDEA, Visual Studio, ...)
+  - Useful for typical, day-to-day use cases
+
+> In this course, we will focus on the CLI.
+
+---
+
+## Git Server Products
+
+- Remote repository for distributed version control
+- Combine Git version control with related topics like...
+  - ...project and task management,
+  - ...code reviews and discussions about changes,
+  - ...continuous integration and delivery (CI/CD),
+  - ...code security scanning,
+  - ...package management, etc.
+- Examples:
+  - GitHub, Azure DevOps, AWS CodeCommit, BitBucket, GitLab, etc.
+
+> In this course, we will focus on [GitHub](https://github.com/).
+
+---
+
+## Hands-On Exercise
 
 1. Prerequisites - Github account and local git is configured
 2. You created a repo on github or you got an assignment-link from me
 3. Now head over to [Git Cheat Sheet: Commands and Best Practices](https://www.jrebel.com/blog/git-cheat-sheet)
 
-Note:
-image source: <https://www.jrebel.com/blog/git-cheat-sheet>
----
-
-## How to Use Git?
-
-- Detailed git command line explanations
-  - [Read chapter 2 *Git Basics* of Git book...](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
-- Visual Git tools examples:
-  - [Git support in VSCode](https://code.visualstudio.com/docs/editor/versioncontrol#_git-support)
-  - Intellij IDEA
-  - Visual Studio
-- Other tools
-  - [gitignore.io](https://www.gitignore.io/)
-
----
-
-## What You Have to Know
-
-- [Initialize a local Git repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
-- [Tracking changes](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
-- [Working with remotes](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
-- [Setup and configure GitHub account](https://git-scm.com/book/en/v2/GitHub-Account-Setup-and-Configuration)
-
----
-
-## What You Have to Know - Git CLI
-
-| Command                                             | Description                                                  |
-| --------------------------------------------------- | ------------------------------------------------------------ |
-| [*git init*](https://git-scm.com/docs/git-init)     | Create an empty Git repository or reinitialize an existing one |
-| [*git clone*](https://git-scm.com/docs/git-clone)   | Clone a repository into a new directory                      |
-| [*git pull*](https://git-scm.com/docs/git-pull)     | Fetch from and integrate with another repository or a local branch |
-| [*git add*](https://git-scm.com/docs/git-add)       | Add file contents to the index                               |
-| [*git commit*](https://git-scm.com/docs/git-commit) | Record changes to the repository                             |
-| [*git log*](https://git-scm.com/docs/git-log)       | Show commit logs                                             |
-| [*git push*](https://git-scm.com/docs/git-push)     | Update remote refs along with associated objects             |
-| [*git status*](https://git-scm.com/docs/git-status) | Show the working tree status                                 |
-| [*git config*](https://git-scm.com/docs/git-config) | Get and set repository or global options                     |
-
----
-
-## What You *Should* Know
-
-- [Basics about branching](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
-  - [Online learning tool for branching](https://learngitbranching.js.org/)
-- [GitHub flow](https://guides.github.com/introduction/flow/)
-
----
-
-## What You Should Know - Git CLI
-
-| Command                                                 | Description                                         |
-| ------------------------------------------------------- | --------------------------------------------------- |
-| [*git branch*](https://git-scm.com/docs/git-branch)     | List, create, or delete branches                    |
-| [*git checkout*](https://git-scm.com/docs/git-checkout) | Switch branches or restore working tree files       |
-| [*git merge*](https://git-scm.com/docs/git-merge)       | Join two or more development histories together     |
-| [*git stash*](https://git-scm.com/docs/git-stash)       | Stash the changes in a dirty working directory away |
-| [*git remote*](https://git-scm.com/docs/git-remote)     | Manage set of tracked repositories                  |
-| [*git reset*](https://git-scm.com/docs/git-reset)       | Reset current HEAD to the specified state           |
-
 ---
 
 ## Additional Information
 
-The following links are some of my favorites:
+### Further Readings
 
-1. [How to teach Git](https://rachelcarmena.github.io/2018/12/12/how-to-teach-git.html) - we will have a look at that one!
-2. and its successor: [Learn git concepts not commands](https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc).
-3. [How to explain git in simple words](https://smusamashah.github.io/blog/2017/10/14/explain-git-in-simple-words) - absolutely misleading title, this one goes into depth (hashes, blobs, commits,...)
-4. [Understanding the GitHub flow](https://guides.github.com/introduction/flow/) - already mentioned before.
-5. [Aha! Moments when learning Git](https://betterexplained.com/articles/aha-moments-when-learning-git/) - we will have a look at that one too!
+- [Getting Started - First-Time Git Setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
+- [Getting Started Videos](https://git-scm.com/videos)
+
+### Some of my Favorites
+
+- [How to teach Git](https://rachelcarmena.github.io/2018/12/12/how-to-teach-git.html) - we will have a look at that one!
+- and its successor: [Learn git concepts not commands](https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc).
+- [How to explain git in simple words](https://smusamashah.github.io/blog/2017/10/14/explain-git-in-simple-words) absolutely misleading title<br>this one goes into depth (hashes, blobs, commits,...)
+- [Understanding the GitHub flow](https://guides.github.com/introduction/flow/) - already mentioned before.
+- [Aha! Moments when learning Git](https://betterexplained.com/articles/aha-moments-when-learning-git/) - we will have a look at that one too!
 
 ---
 
