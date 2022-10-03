@@ -6,16 +6,9 @@ A tutorial on git and github.
 
 ## Where and How to Start?
 
-Either visit the according [github pages](https://litec-hasp.github.io/git-intro/) presenting a slide show of this repository, or have a look at the according markdown documents:
+**START HERE**: [github pages](https://litec-hasp.github.io/git-intro/)- a slide show of this repository.
 
-- [00-prerequisites.md](./00-prerequisites.md) - setup of needed tools.
-- [01-git-basics.md](./01-git-basics.md) - the essentials introduction to git.
-- [02-git-commands.md](./02-github-education.md) - github eduction, mainly for teachers
-
-Additional documents:
-
-- [98-github-education.md](./98-github-education.md) - mainly for teachers
-- [99-git-on-VS.md](./99-git-on-VS.md) - usage of git within Visual Studio
+Otherwise have a look at the markdown files above...
 
 ## Additional Information
 
