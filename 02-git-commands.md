@@ -77,51 +77,54 @@ Get repository name from GitHub
 
 ## `git add` ([ref](https://git-scm.com/docs/git-add))
 
-* Add <!-- .element: class="fragment" --> a single change (creation, modification): `git add index.html`
-* Add <!-- .element: class="fragment" --> all changes in current folder and subfolders: `git add .`
-* Add <!-- .element: class="fragment" --> a file that would otherwise be ignored (.gitignore): `git add --force style.css`
-* Add <!-- .element: class="fragment" --> all changes including deletions: `git add --all .`
-  * `--ignore-removal` would otherwise be the default
-  * Alternative: Use separate [`rm`](https://git-scm.com/docs/git-rm) or [`mv`](https://git-scm.com/docs/git-mv) commands
+- Add <!-- .element: class="fragment" --> a single change (creation, modification): `git add index.html`
+- Add <!-- .element: class="fragment" --> all changes in current folder and subfolders: `git add .`
+- Add <!-- .element: class="fragment" --> a file that would otherwise be ignored (.gitignore): `git add --force style.css`
+- Add <!-- .element: class="fragment" --> all changes including deletions: `git add --all .`
+  - `--ignore-removal` would otherwise be the default
+  - Alternative: Use separate [`rm`](https://git-scm.com/docs/git-rm) or [`mv`](https://git-scm.com/docs/git-mv) commands
 
 ---
 
 ## `git commit` ([ref](https://git-scm.com/docs/git-commit))
 
-* Commit <!-- .element: class="fragment" --> with message: `git commit -m 'Add styles'`
-* Commit <!-- .element: class="fragment" --> all changes without having to separately call `add` and/or `rm`: `git commit -a -m '...'`
-* Amend <!-- .element: class="fragment" --> (=replace) last commit: `git commit --amend -m '...'`
-* Good <!-- .element: class="fragment" --> practices for [commit messages](https://www.conventionalcommits.org/en/v1.0.0/)
+![xkcd1296](https://imgs.xkcd.com/comics/git_commit.png)
+
+- Commit <!-- .element: class="fragment" --> with message: `git commit -m 'Add styles'`
+- Commit <!-- .element: class="fragment" --> all changes without having to separately call `add` and/or `rm`: `git commit -a -m '...'`
+- Amend <!-- .element: class="fragment" --> (=replace) last commit: `git commit --amend -m '...'`
+- Good <!-- .element: class="fragment" --> practices for [commit messages](https://www.conventionalcommits.org/en/v1.0.0/)
+
 
 ---
 
 ## *HEAD*
 
-* Typically <!-- .element: class="fragment" --> references to the *current* or *active* branch
-* Can <!-- .element: class="fragment" --> be *deteched* (i.e. referencing a specific commit, not a branch)
-* Referencing <!-- .element: class="fragment" --> relative to *HEAD*
-  * `HEAD~` means the first parent of the tip of the current branch (or commit in case of detached *HEAD*)
-  * You can go back multiple steps (e.g. `HEAD~~` or `HEAD~2`)
+- Typically <!-- .element: class="fragment" --> references to the *current* or *active* branch
+- Can <!-- .element: class="fragment" --> be *deteched* (i.e. referencing a specific commit, not a branch)
+- Referencing <!-- .element: class="fragment" --> relative to *HEAD*
+  - `HEAD~` means the first parent of the tip of the current branch (or commit in case of detached *HEAD*)
+  - You can go back multiple steps (e.g. `HEAD~~` or `HEAD~2`)
 
 ---
 
 ## `git revert` ([ref](https://git-scm.com/docs/git-revert)) and `git reset` ([ref](https://git-scm.com/docs/git-reset))
 
-* Revert <!-- .element: class="fragment" -->
-  * Revert changes that a commit introduced and record reverting in a new commit
-  * Tip: Use `-n` switch to just do the edits without commit
-  * Revert changes of the fourth last commit: `git revert HEAD~3`
-  * Revert changes from fifth to to the third last (included) commit: `git revert master~5..master~2`
-* Reset <!-- .element: class="fragment" -->
-  * Can be used to undo local changes
-  * Undo local edits: `git reset --hard`
+- Revert <!-- .element: class="fragment" -->
+  - Revert changes that a commit introduced and record reverting in a new commit
+  - Tip: Use `-n` switch to just do the edits without commit
+  - Revert changes of the fourth last commit: `git revert HEAD~3`
+  - Revert changes from fifth to to the third last (included) commit: `git revert master~5..master~2`
+- Reset <!-- .element: class="fragment" -->
+  - Can be used to undo local changes
+  - Undo local edits: `git reset --hard`
 
 ---
 
 ## Exercises, Further Readings
 
-* Exercises (rstropek)
-  * [Lab: Building a Website in a Local Repository](https://github.com/rstropek/git-fundamentals/blob/master/content/labs/0020-local-repo.md)
-  * [Lab: Building a Simple Game in a Local Repository](https://github.com/rstropek/git-fundamentals/blob/master/content/labs/0030-tags-stashing.md)
-* Further readings:
-  * [*Git Basics* in Git book](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
+- Exercises (rstropek)
+  - [Lab: Building a Website in a Local Repository](https://github.com/rstropek/git-fundamentals/blob/master/content/labs/0020-local-repo.md)
+  - [Lab: Building a Simple Game in a Local Repository](https://github.com/rstropek/git-fundamentals/blob/master/content/labs/0030-tags-stashing.md)
+- Further readings:
+  - [*Git Basics* in Git book](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)

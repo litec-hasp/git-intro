@@ -25,7 +25,7 @@ This presentation is based on reveal.js - see [reveal-js.info.md](./reveal-js-in
 
 Used as sources throughout this tutorial
 
-- https://github.com/rstropek/git-fundamentals
-- https://www.jrebel.com/blog/git-cheat-sheet
-- https://www.w3schools.com/git/git_intro.asp?remote=github
-
+- <https://github.com/rstropek/git-fundamentals>
+- <https://github.com/rstropek/GitHubEduWorkshop/>
+- <https://www.jrebel.com/blog/git-cheat-sheet>
+- <https://www.w3schools.com/git/git_intro.asp?remote=github>
