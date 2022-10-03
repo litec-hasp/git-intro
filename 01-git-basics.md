@@ -14,20 +14,20 @@
 
 ## What is Git?
 
-- A popular *(Distributed) Version Control System*
+- a popular *(Distributed) Version Control System*
+- command line tool
 - Free and open source
-- Created 2005 by Linus Torvalds
-- Used for
-  - Coding and writing collaboration
+- created 2005 by Linus Torvalds
+- used for
+  - coding and writing collaboration
   - tracking changes:
-     - **what** (code, text, files)
-     - **who**
-     - **when**
-
+    - **what** (code, text, files)
+    - **who**
+    - **when**
 
 ---
 
-## What is a Version Control System? - Part 1
+## What is a Version Control System? <small>Part 1</small>
 
 > "Version control lets you track your files over time."
 
@@ -35,13 +35,13 @@ Everyone of us is doing this ("`Save as..`"):
 
 ![failed versioning](img/failed_versioning.png)
 
+A good way? Hmm...<br> Even worse: consider a shared folder!
 ---
 
 - Works for small and huge projects
 - Supports local repositories and servers
 - Want to learn all the details? [Free, online book...](https://git-scm.com/book)
 - We will use [*GitHub*](https://github.com)
-
 
 ---
 
