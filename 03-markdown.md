@@ -56,3 +56,5 @@ based on <https://github.com/rstropek/GitHubEduWorkshop/>
 - Tip: [Visual Studio Code](https://code.visualstudio.com) has many [Markdown plugins](https://marketplace.visualstudio.com/search?term=markdown&target=VSCode&category=All%20categories&sortBy=Relevance)
 - Tip: Use a [spell checker in VSCode](https://marketplace.visualstudio.com/search?term=spell%20checker&target=VSCode&category=All%20categories&sortBy=Relevance) to prevent typos in documentation and source code
 - Try *markdownlint* and *spell checker* with [GitHub Flow lab](https://github.com/rstropek/GitHubEduWorkshop/tree/master/hands-on-labs/github-flow)
+
+---
