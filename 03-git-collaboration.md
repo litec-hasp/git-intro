@@ -170,7 +170,7 @@ Better use an editor like `vscode`. Try it out right now!
 
 ## Exercises, Further Readings
 
-- Exercises
+- Exercises (rstropek)
   - [Demo: *Merge Conflict Resolution*](https://github.com/rstropek/git-fundamentals/blob/master/content/labs/9010-merge-conflict.md)
   - [Lab: *Building a Simple Game with Branching*](https://github.com/rstropek/git-fundamentals/blob/master/content/labs/0050-branching.md)
 - Further readings:
