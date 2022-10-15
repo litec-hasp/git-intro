@@ -162,7 +162,7 @@ A good way? Hmm...<br> Even worse: consider a shared folder!
 
 ## ~~Book recommendations~~
 
-It is recommended **NOT** to read the following two books:
+It is **NOT** recommended to read the following two books:
 
 <p float="left">
   <img src="./img/git-basics_Excuses.png" height="450" />
