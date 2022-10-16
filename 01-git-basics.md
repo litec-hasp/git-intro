@@ -159,13 +159,8 @@ A good way? Hmm...<br> Even worse: consider a shared folder!
 
 ---
 
-## ~~Book recommendations~~
+## End of Git-Basics
 
-It is **NOT** recommended to read the following two books:
+*Please, do not read:*
 
-<p float="left">
-  <img src="./img/git-basics_Excuses.png" height="450" />
-  <img src="./img/git-basics_UselessMessages.jpg" height="450" />
-</p>
-
-Instead use the online resources mentioned before!
+<img src="./img/git-basics_Excuses.png" height="550" />

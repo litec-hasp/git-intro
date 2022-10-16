@@ -159,3 +159,11 @@ git commit --amend -m '...'
   - tag/stash: [Lab: Building a Simple Game in a Local Repository](https://github.com/rstropek/git-fundamentals/blob/master/content/labs/0030-tags-stashing.md)
 - Further readings:
   - [*Git Basics* in Git book](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
+
+---
+
+## End of Git-Commands
+
+*Please, do not read:*
+
+<img src="./img/git-basics_UselessMessages.jpg" height="550" />

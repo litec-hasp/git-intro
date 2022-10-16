@@ -61,6 +61,10 @@ based on <https://github.com/rstropek/GitHubEduWorkshop/>
 
 ## THAT'S IT
 
+You reached the final slide.
+
 Always remember:
 
 ![InCaseOfFire](./img/git-basics_inCaseOfFire_sml.jpg)
+
+...and use markdown as often as possible!

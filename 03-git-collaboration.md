@@ -30,7 +30,7 @@ Teamwork with Git
 
 ---
 
-## `git remote` <small>([ref](https://git-scm.com/docs/git-remote))</small>
+## `git` [`remote`](https://git-scm.com/docs/git-remote)
 
 ```bash
   # List remotes:
@@ -48,12 +48,12 @@ Teamwork with Git
 
 ---
 
-## `git fetch` <small>([ref](https://git-scm.com/docs/git-fetch))</small>
+## `git` [`fetch`](https://git-scm.com/docs/git-fetch)
 
 - Gets latest meta-data from remote repository.
   - **Does not do any file transfer!**
 
-## `git pull` <small>([ref](https://git-scm.com/docs/git-pull))</small>
+## `git` [`pull`](https://git-scm.com/docs/git-pull)
 
 - Fetches latest meta-data AND integrates changes in local repository.
 
@@ -175,3 +175,13 @@ Better use an editor like `vscode`. Try it out right now!
   - [*Working with Remotes* in Git book](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
   - [*Basic Branching and Merging* in Git book](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
   - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
+
+---
+
+## End of Git-*Cool*-laboration
+
+*Always remember:*
+
+![workflow](img/git-state-diagram_(c)JREBEL.png)
+
+<small>[Image Source](https://www.jrebel.com/blog/git-cheat-sheet)</small>
