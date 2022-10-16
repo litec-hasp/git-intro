@@ -154,7 +154,7 @@ git commit --amend -m '...'
 
 ## Exercises, Further Readings
 
-- Exercises (rstropek - @todo add own exercises)
+- Exercises (rstropek)
   - add/commit: [Lab: Building a Website in a Local Repository](https://github.com/rstropek/git-fundamentals/blob/master/content/labs/0020-local-repo.md)
   - tag/stash: [Lab: Building a Simple Game in a Local Repository](https://github.com/rstropek/git-fundamentals/blob/master/content/labs/0030-tags-stashing.md)
 - Further readings:

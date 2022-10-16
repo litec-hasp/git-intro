@@ -174,3 +174,4 @@ Better use an editor like `vscode`. Try it out right now!
 - Further readings:
   - [*Working with Remotes* in Git book](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
   - [*Basic Branching and Merging* in Git book](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
+  - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
