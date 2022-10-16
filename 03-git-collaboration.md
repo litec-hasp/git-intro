@@ -1,25 +1,23 @@
 # Git - Collaboration
 
-Teamwork in Git
+Teamwork with Git
 
 ---
 
 ## Remotes
 
-- Versions <!-- .element: class="fragment" --> of your project hosted on the Internet or network somewhere
-  - Here: GitHub
-- 0..n <!-- .element: class="fragment" --> remotes
-  - Some read-only, some read-write
-- Collaborate <!-- .element: class="fragment" --> by pulling and pushing data to and from them
-- Credentials <!-- .element: class="fragment" -->
+- Project versions hosted on the Internet or network somewhere
+  - Example: [GitHub](https://github.com)
+- Access: read-only or read-write
+- Collaboration: by *pulling and pushing data to and from* them
+- Credentials
   - Store credentials with [credential helpers](https://git-scm.com/docs/gitcredentials)
-  - Check configured credential helper: `git config --global credential.helper`
+  - Check configuration: `git config --global credential.helper`
   - Example: [GitHub on Windows](https://help.github.com/en/github/using-git/caching-your-github-password-in-git)
-  - Example: [WSL 2](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-git#git-credential-manager-setup)
 
 ---
 
-## Overview
+## Remote Commands Overview
 
 | Git Command                                         | Description                                        |
 | --------------------------------------------------- | -------------------------------------------------- |
@@ -32,68 +30,68 @@ Teamwork in Git
 
 ---
 
-## `git remote` ([ref](https://git-scm.com/docs/git-remote))
+## `git remote` <small>([ref](https://git-scm.com/docs/git-remote))</small>
 
-- List <!-- .element: class="fragment" --> remotes: `git remote -v`
-- Add <!-- .element: class="fragment" --> remote: `git remote add <name> <url>`
-- Remove <!-- .element: class="fragment" --> remote: `git remote remove <name>`
-- Get <!-- .element: class="fragment" --> URL of remote: `git remote get-url <name>`
+```bash
+  # List remotes:
+  git remote -v 
+
+  # Add remote: 
+  git remote add <name> <url>
+
+  # Remove remote: 
+  git remote remove <name>
+
+  # Get URL of remote:
+  git remote get-url <name>
+```
 
 ---
 
-## `git fetch` ([ref](https://git-scm.com/docs/git-fetch)), `git pull` ([ref](https://git-scm.com/docs/git-pull))
+## `git fetch` <small>([ref](https://git-scm.com/docs/git-fetch))</small>
 
-- Fetch <!-- .element: class="fragment" --> gets latest meta-data from remote repository
-  - Does not do any file transfer
-- Fetches <!-- .element: class="fragment" --> latest meta-data and integrates change in local repository
+- Gets latest meta-data from remote repository.
+  - **Does not do any file transfer!**
 
----
+## `git pull` <small>([ref](https://git-scm.com/docs/git-pull))</small>
 
-## Exercises, Further Readings
-
-- Exercises
-  - [Lab: Building a Website with GitHub](https://github.com/rstropek/git-fundamentals/blob/master/content/labs/0040-remotes.md)
-- Further readings:
-  - [*Working with Remotes* in Git book](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
+- Fetches latest meta-data AND integrates changes in local repository.
 
 ---
 
 ## Branching
 
-- Diverge <!-- .element: class="fragment" --> from the main line of development and continue to do work without messing with that main line
-- Git <!-- .element: class="fragment" --> branches are lightweight
-  - Branching operations are nearly instantaneous
-  - Switching back and forth is generally fast
-- Branch <!-- .element: class="fragment" --> early, branch often
+- Diverge from the main line of development and<br> continue to do work without messing with that main line.
+- Branching operations are nearly instantaneous.
+- Switching between branches is generally fast.
+- [**Commit (and branch) early, branch often!**](https://coderwall.com/p/wxowig/git-is-cheap)
 
 ---
 
-## Overview
+## Branching Commands Overview
 
 | Git Command                                         | Description                                |
 | --------------------------------------------------- | ------------------------------------------ |
-| [`checkout`](https://git-scm.com/docs/git-checkout) | Switch branches                            |
 | [`branch`](https://git-scm.com/docs/git-branch)     | List, create, or delete branches           |
+| [`checkout`](https://git-scm.com/docs/git-checkout) | Switch branches                            |
 | [`merge`](https://git-scm.com/docs/git-merge)       | Join development histories together        |
 | [`rebase`](https://git-scm.com/docs/git-rebase)     | Reapply commits on top of another base tip |
 
 ---
 
-## Branching
+## Branching - Workflow
 
-- Simple workflow:
-  - Create a branch for each feature
-  - Create a branch for each bug fix
-  - Let the *main* branch be clean by not making it a *Work In Progress* (WIP)
+- Create a branch for each *feature*
+- Create a branch for each *bug fix*
+- Keep the *main* branch clean by not making it a "*Work in Progress*"
 
 ---
 
 ## Branching - GitFlow
 
-
 ![image-20221015135833529](./img/gitflow_(c)Atlassian.png)
 
-[Source](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+<small>[Image Source: (c) Atlassian](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)</small>
 
 ---
 
@@ -118,23 +116,22 @@ Teamwork in Git
 
 ![git-merge](./img/git-merge.png)
 
--  **Advantage**: It’s a *non-destructive* operation (existing branches are not changed).
+- **Advantage**: It’s a *non-destructive* operation (existing branches are not changed).
 
 ---
 
 ## Rebase
 
 - Another way to "move" your branch back to `main` (or any other branch) is `rebase`:
-  - Taking one branch and 
-  - adding it to the tip of another, 
+  - Taking one branch and
+  - adding it to the tip of another,
   - where the tip is simply the last commit in the branch.
-
 - **Advantage**: Cleaner project history
-- **Disadvantage**:  
-  - Rewriting project history (traceabilty problem)
-  - Safety problems (more merge conflicts, destructive operation)
+- **Disadvantages**:  
+  - Rewriting project history (traceability problem)
+  - More merge conflicts, destructive operation (safety problem)
 
-#### Workflow
+### Workflow
 
 ```mermaid-gitGraph_rebase_not_working_atm
 branch bugfix
@@ -150,11 +147,11 @@ merge bugfix
 
 ## Merge Conflicts
 
-- If Git isn't able to merge cleanly -> conflict
+- If Git isn't able to merge cleanly -> **CONFLICT**
   - Merge process is paused
   - Use `git status` to see unmerged files
-  - Git adds standard conflict-resolution markers
-  - Tip: Use merge tool or IDE to resolve
+  - Git adds standard conflict-resolution markers (see below)
+  - Tip: Use merge tool or IDE to resolve (vscode recommended)
 
 ```text
 <<<<<<< HEAD:readme.md
@@ -171,7 +168,9 @@ Better use an editor like `vscode`. Try it out right now!
 ## Exercises, Further Readings
 
 - Exercises (rstropek)
+  - [Lab: Building a Website with GitHub](https://github.com/rstropek/git-fundamentals/blob/master/content/labs/0040-remotes.md)
   - [Demo: *Merge Conflict Resolution*](https://github.com/rstropek/git-fundamentals/blob/master/content/labs/9010-merge-conflict.md)
   - [Lab: *Building a Simple Game with Branching*](https://github.com/rstropek/git-fundamentals/blob/master/content/labs/0050-branching.md)
 - Further readings:
+  - [*Working with Remotes* in Git book](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
   - [*Basic Branching and Merging* in Git book](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
