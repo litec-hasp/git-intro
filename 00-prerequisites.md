@@ -1,10 +1,14 @@
 ## Prerequisites
 
 > For Windows only!<br>
-> See slide(s) below for setup (litec way).
+> See next slide for setup instruction / links.
+
+### Overview
 
 - Usage of [winget](https://github.com/microsoft/winget-cli) package-manager
-- Installation of some base tools (editor, terminal,...)
+- Installation of some base tools
+  - [Visual Studio Code](https://code.visualstudio.com/) (vscode)
+  - [Windows Terminal](https://aka.ms/terminal) - OPTIONAL!
 - Installing and setup of [git](https://git-scm.com/)
 - Creating a [github](https://github.com/join) account
 

@@ -24,6 +24,6 @@
         "default": true,
         //"MD007": { "indent": 4 },
         "no-hard-tabs": true,
-        "no-inline-html": { "allowed_elements": ["br","small"] } 
+        "no-inline-html": { "allowed_elements": ["br","small","img","p","div","span"] } 
     }
 }

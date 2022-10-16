@@ -138,25 +138,24 @@ A good way? Hmm...<br> Even worse: consider a shared folder!
 ## Hands-On Exercise
 
 1. Prerequisites - Github account and local git is configured
-2. You created a repo on github or you got an assignment-link from me
+2. You created a repo on github<br> OR you got an assignment-link (github classroom)
 3. Now head over to [Git Cheat Sheet: Commands and Best Practices](https://www.jrebel.com/blog/git-cheat-sheet)
+   <br>and follow the examples.
 
 ---
 
-## Additional Information
-
-### Further Readings
+## Further Readings
 
 - [Getting Started - First-Time Git Setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 - [Getting Started Videos](https://git-scm.com/videos)
 
 ### Some of my Favorites
 
-- [How to teach Git](https://rachelcarmena.github.io/2018/12/12/how-to-teach-git.html) - we will have a look at that one!
-- and its successor: [Learn git concepts not commands](https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc).
-- [How to explain git in simple words](https://smusamashah.github.io/blog/2017/10/14/explain-git-in-simple-words) absolutely misleading title<br>this one goes into depth (hashes, blobs, commits,...)
-- [Understanding the GitHub flow](https://guides.github.com/introduction/flow/) - already mentioned before.
-- [Aha! Moments when learning Git](https://betterexplained.com/articles/aha-moments-when-learning-git/) - we will have a look at that one too!
+- [How to teach Git](https://rachelcarmena.github.io/2018/12/12/how-to-teach-git.html)
+- [Learn git concepts not commands](https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc)
+- [How to explain git in simple words](https://smusamashah.github.io/blog/2017/10/14/explain-git-in-simple-words)
+  - <span style="color:red;">**BEWARE!**<br> This one goes into depth!</span>
+- [Aha! Moments when learning Git](https://betterexplained.com/articles/aha-moments-when-learning-git/)
 
 ---
 
