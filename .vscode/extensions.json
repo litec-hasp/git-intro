@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "ritwickdey.liveserver",
-        "bierner.github-markdown-preview"
+        "bierner.github-markdown-preview",
+        "davidanson.vscode-markdownlint"
     ]
 }
